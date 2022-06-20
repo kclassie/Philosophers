@@ -2,6 +2,9 @@
 The aim of this project is to write a solution of the dining philosopher's problem - the classical problem of synchronization. The implementation bases on threads, mutexes and semaphores.
 This is the project for School21 (Ecole 42).
 
+## USAGE
+```./philo number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]```
+
 ## The programs take the following arguments:
 
 - **number_of_philosophers**: The number of philosophers and also the number of forks.
